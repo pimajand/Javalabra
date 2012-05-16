@@ -1,3 +1,3 @@
 Javalabra
 =========
-Repotreeni 3.
+Repotreeni 3. Harjoitellaan lisää.
