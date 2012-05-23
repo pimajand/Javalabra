@@ -34,7 +34,7 @@ public class Resepti {
    
     @Override
 public String toString() {
-    return this.resepti + ", " + this.sijainti + ", hakukriteeri puuttuu vielä";
+    return resepti + ", " + sijainti + ", hakukriteeri puuttuu vielä";
 }       
   
     
