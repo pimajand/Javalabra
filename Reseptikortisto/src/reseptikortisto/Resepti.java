@@ -4,7 +4,7 @@
  */
 package reseptikortisto;
 
-import java.util.ArrayList;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -14,12 +14,12 @@ import java.util.Scanner;
 public class Resepti {
     private String resepti;
     private String sijainti;
-    private ArrayList<String> hakukriteerit = new ArrayList<String>();
+    private String ruokalaji;
         
-   public Resepti(String nimi, String sijainti) {
+   public Resepti(String nimi, String sijainti, String ruokalaji) {
         this.resepti = nimi;
         this.sijainti = sijainti;
-               
+        this.ruokalaji = ruokalaji;     
    }
    
    public void muutaNimea(Resepti resepti, String uusiNimi) {
@@ -31,11 +31,12 @@ public class Resepti {
        this.sijainti = uusiSijainti;
        return;
    }
-   
+    
     @Override
-public String toString() {
-    return resepti + ", " + sijainti + ", hakukriteeri puuttuu vielä";
-}       
+    public String toString() {
+        return resepti + ", " + sijainti + ", " + ruokalaji;
+    }       
   
     
 }
+

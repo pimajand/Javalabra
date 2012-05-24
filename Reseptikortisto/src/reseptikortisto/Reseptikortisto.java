@@ -12,13 +12,25 @@ import java.util.Scanner;
  */
 public class Reseptikortisto {
     private static Scanner lukija = new Scanner(System.in);
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Resepti resepti = new Resepti("Tonnikalalasagne", "Ruutuvihko");
-        System.out.println(resepti);
+        
+        Kortisto reseptikortisto = new Kortisto();
+        
+        System.out.println(reseptikortisto);
+     
+
+
+        
+        
+        
+        
+       Resepti resepti = new Resepti("Tonnikalalasagne", "Ruutuvihko", "Pääruoka");
+       resepti.TiedostoonTallennus();
         
         
         
