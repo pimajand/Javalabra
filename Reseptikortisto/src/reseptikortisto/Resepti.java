@@ -5,38 +5,46 @@
 package reseptikortisto;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  *
- * @author pimajand
+ * @author hkimajanpi
  */
 public class Resepti {
-    private String resepti;
+    private String nimi;
     private String sijainti;
-    private String ruokalaji;
-        
-   public Resepti(String nimi, String sijainti, String ruokalaji) {
-        this.resepti = nimi;
-        this.sijainti = sijainti;
-        this.ruokalaji = ruokalaji;     
-   }
+    ArrayList<String> hakukriteerit = new ArrayList();
    
-   public void muutaNimea(Resepti resepti, String uusiNimi) {
-       this.resepti = uusiNimi;
-       return;
+       
+   public Resepti(String nimi, String sijainti) {
+        this.nimi = nimi;
+        this.sijainti = sijainti; 
    }
-     
-   public void muutaSijaintia(Resepti resepti, String uusiSijainti) {
-       this.sijainti = uusiSijainti;
-       return;
+  
+   public void muutaNimea(String uusiNimi) {
+       this.nimi = uusiNimi;
    }
     
+   public void muutaSijaintia(String uusiSijainti) {
+       this.sijainti = uusiSijainti;
+   }
+  
+   void lisaaHakukriteeri(String hakukriteeri) {
+       int koko = hakukriteerit.size();
+        if (hakukriteerit.contains(hakukriteeri) || hakukriteerit.size() == koko )
+            return;
+        hakukriteerit.add(hakukriteeri);
+    }
+  
+   ArrayList<String> getHakukriteerit() {
+        return hakukriteerit;
+    }
+  
     @Override
     public String toString() {
-        return resepti + ", " + sijainti + ", " + ruokalaji;
-    }       
-  
-    
+        return nimi + ", " + sijainti;
+    }      
+   
 }
-

@@ -4,38 +4,52 @@
  */
 package reseptikortisto;
 
-import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 /**
  *
- * @author pimajand
+ * @author hkimajanpi
  */
-public class Reseptikortisto {
-    private static Scanner lukija = new Scanner(System.in);
-    
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        Kortisto reseptikortisto = new Kortisto();
-        
-        System.out.println(reseptikortisto);
-     
-
-
-        
-        
-        
-        
-       Resepti resepti = new Resepti("Tonnikalalasagne", "Ruutuvihko", "Pääruoka");
-       resepti.TiedostoonTallennus();
-        
-        
-        
-        
-        
-        // TODO code application logic here
+public class Reseptikortisto {private static Scanner lukija = new Scanner(System.in);
+    private static String tiedostonNimi = "Reseptikortisto.txt";
+    private String kokkaaja;
+    private static ArrayList<Resepti> reseptit = new ArrayList();
+   
+    Reseptikortisto() {
+       
     }
+           
+void kokkaajaKirjautui(String nimi) {
+        this.kokkaaja = nimi;
+    }
+
+    String getKokkaaja() {
+        return this.kokkaaja;
+    }
+
+    ArrayList<Resepti> getReseptit() {
+        return reseptit;
+    }
+   
+    void lisaaResepti(String nimi, String sijainti) throws FileNotFoundException {
+
+        Resepti r = new Resepti(nimi, sijainti);
+//        r.lataa(); Tee tähän toiminto!
+        reseptit.add(r);
+
+
+    }
+       
+    private static void talletaReseptit() throws IOException {
+       PrintWriter tiedosto = new PrintWriter(new File(tiedostonNimi));
+        int reseptienMaara = reseptit.size();
+        tiedosto.println(reseptienMaara);
+        for (Resepti nimi : reseptit) {
+            tiedosto.println(nimi);
+        }
+        tiedosto.close();
+    }
+
+
 }
