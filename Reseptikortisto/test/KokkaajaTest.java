@@ -10,9 +10,9 @@ import static org.junit.Assert.*;
  *
  * @author pimajand
  */
-public class ReseptikortistoTest {
+public class KokkaajaTest {
     
-    public ReseptikortistoTest() {
+    public KokkaajaTest() {
     }
 
     @BeforeClass
@@ -35,6 +35,6 @@ public class ReseptikortistoTest {
     //
     @Test
     public void hello() {
-        assertTrue(true);    
+        assertTrue(true);
     }
 }

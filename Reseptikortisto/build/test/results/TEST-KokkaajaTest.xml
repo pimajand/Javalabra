@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="dhp-19" name="ReseptikortistoTest" tests="1" time="0.067" timestamp="2012-05-28T15:13:29">
+<testsuite errors="0" failures="0" hostname="dhp-19" name="KokkaajaTest" tests="1" time="0.054" timestamp="2012-05-28T15:13:27">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="FI" />
@@ -65,7 +65,7 @@
     <property name="manifest.available+main.class" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ReseptikortistoTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/test/results/TEST-ReseptikortistoTest.xml crashfile=/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/junitvmwatcher7257544790862097312.properties propsfile=/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/junit8633960157044757399.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner KokkaajaTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/test/results/TEST-KokkaajaTest.xml crashfile=/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/junitvmwatcher7991493292526038367.properties propsfile=/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/junit2045736442112650939.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -244,7 +244,6 @@
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="netbeans.user" value="/cs/fs/home/pimajand/.netbeans/7.1" />
-    <property name="tests.failed" value="true" />
     <property name="javadoc.additionalparam" value="" />
     <property name="java.io.tmpdir" value="/tmp" />
     <property name="java.vendor.url" value="http://java.sun.com/" />
@@ -287,17 +286,17 @@
     <property name="libs.hibernate-persistence.maven-pom" value="" />
     <property name="libs.absolutelayout.javadoc" value="" />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="libs.NetBeans MIDP Components WMA.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/netbeans_midp_components_wma.jar" />
     <property name="libs.jakarta_slide_ant_webdav.maven-pom" value="" />
+    <property name="libs.NetBeans MIDP Components WMA.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/netbeans_midp_components_wma.jar" />
     <property name="do.archive+main.class.available" value="true" />
     <property name="libs.sjmc-ant-utils.src" value="" />
     <property name="java.specification.vendor" value="Sun Microsystems Inc." />
     <property name="libs.cdc-agui-swing-layout.javadoc" value="" />
     <property name="libs.javac-api.classpath" value="/opt/netbeans-7.1/java/modules/ext/javac-api-nb-7.0-b07.jar" />
-    <property name="libs.nokiaS80-ant-utils.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
     <property name="java.version" value="1.6.0_26" />
-    <property name="libs.NetBeans MIDP Components WMA.javadoc" value="/opt/netbeans-7.1/mobility/modules/docs/netbeans_midp_components_wma-api.zip" />
+    <property name="libs.nokiaS80-ant-utils.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
     <property name="javadoc.version" value="false" />
+    <property name="libs.NetBeans MIDP Components WMA.javadoc" value="/opt/netbeans-7.1/mobility/modules/docs/netbeans_midp_components_wma-api.zip" />
     <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="source.encoding" value="UTF-8" />
@@ -311,13 +310,13 @@
     <property name="netbeans.home+have.tests" value="true" />
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/cs/fs/home/pimajand/Javalabra/Reseptikortisto" />
     <property name="libs.cdc-ant-utils.src" value="" />
+    <property name="work.dir" value="/cs/fs/home/pimajand/Javalabra/Reseptikortisto" />
     <property name="libs.jaxb.classpath" value="/opt/netbeans-7.1/ide/modules/ext/jaxb/jaxb-impl.jar:/opt/netbeans-7.1/ide/modules/ext/jaxb/jaxb-xjc.jar:/opt/netbeans-7.1/ide/modules/ext/jaxb/jaxb1-impl.jar:/opt/netbeans-7.1/ide/modules/ext/jaxb/activation.jar:/opt/netbeans-7.1/ide/modules/ext/jaxb/api/jaxb-api.jar:/opt/netbeans-7.1/ide/modules/ext/jaxb/api/jsr173_api.jar" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
-    <property name="libs.spring-webmvc3.0.classpath" value="/opt/netbeans-7.1/java/modules/ext/spring-3.0/spring-webmvc-3.0.6.RELEASE.jar" />
     <property name="libs.swing-layout.classpath" value="/opt/netbeans-7.1/platform/modules/ext/swing-layout-1.0.4.jar" />
+    <property name="libs.spring-webmvc3.0.classpath" value="/opt/netbeans-7.1/java/modules/ext/spring-3.0/spring-webmvc-3.0.6.RELEASE.jar" />
     <property name="libs.restlib.src" value="" />
     <property name="javac.source" value="1.6" />
     <property name="build.generated.dir" value="build/generated" />
@@ -325,8 +324,8 @@
     <property name="libs.hibernate-persistence.src" value="" />
     <property name="java.specification.version" value="1.6" />
     <property name="libs.nb_svg_midp_components.javadoc" value="/opt/netbeans-7.1/mobility/modules/docs/nb_svg_midp_components-api.zip" />
-    <property name="java.vm.info" value="mixed mode" />
     <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
     <property name="libs.cdc-ant-utils.javadoc" value="" />
     <property name="junit.forkmode" value="perTest" />
     <property name="libs.ojec-ant-utils.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-ojec.jar" />
@@ -350,15 +349,15 @@
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
     <property name="do.archive+manifest.available+main.class" value="true" />
-    <property name="javac.fork" value="false" />
-    <property name="libs.sjmc-ant-utils.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
     <property name="libs.groovy-all.classpath" value="/opt/netbeans-7.1/groovy/modules/ext/groovy-all.jar" />
+    <property name="libs.sjmc-ant-utils.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
+    <property name="javac.fork" value="false" />
     <property name="libs.JMUnit4CLDC10.classpath" value="/opt/netbeans-7.1/mobility/modules/ext/jmunit4cldc10-1.2.1.jar" />
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="default.javac.source" value="1.6" />
     <property name="debug-transport-by-os" value="dt_socket" />
-    <property name="libs.MySQLDriver.src" value="" />
     <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="libs.MySQLDriver.src" value="" />
     <property name="libs.ant-contrib.maven-pom" value="" />
     <property name="libs.nokiadeployment.javadoc" value="" />
     <property name="build.test.results.dir" value="build/test/results" />
@@ -377,12 +376,12 @@
     <property name="libs.jsf20.javadoc" value="/opt/netbeans-7.1/enterprise/docs/javaee6-doc-api.zip" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext:/usr/java/packages/lib/ext" />
     <property name="libs.metro.src" value="" />
-    <property name="libs.savaje-ant-utils.maven-pom" value="" />
     <property name="libs.semc-ant-utils.src" value="" />
+    <property name="libs.savaje-ant-utils.maven-pom" value="" />
     <property name="libs.absolutelayout.classpath" value="/opt/netbeans-7.1/java/modules/ext/AbsoluteLayout.jar" />
     <property name="excludes" value="" />
-    <property name="libs.restlib.maven-pom" value="" />
     <property name="libs.metro.classpath" value="/opt/netbeans-7.1/ide/modules/ext/jaxb/activation.jar:/opt/netbeans-7.1/enterprise/modules/ext/metro/webservices-api.jar:/opt/netbeans-7.1/enterprise/modules/ext/metro/webservices-extra-api.jar:/opt/netbeans-7.1/enterprise/modules/ext/metro/webservices-extra.jar:/opt/netbeans-7.1/enterprise/modules/ext/metro/webservices-rt.jar:/opt/netbeans-7.1/enterprise/modules/ext/metro/webservices-tools.jar" />
+    <property name="libs.restlib.maven-pom" value="" />
     <property name="libs.DataBindingME.javadoc" value="/opt/netbeans-7.1/mobility/modules/docs/netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="java.class.path" value="/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/classes:/cs/fs/home/pimajand/.netbeans/7.1/modules/ext/junit-4.10.jar:/cs/fs/home/pimajand/Javalabra/Reseptikortisto/build/test/classes:/opt/netbeans-7.1/java/ant/lib/ant-launcher.jar:/opt/netbeans-7.1/java/ant/lib/ant.jar:/opt/netbeans-7.1/java/ant/lib/ant-junit.jar:/opt/netbeans-7.1/java/ant/lib/ant-junit4.jar" />
@@ -409,25 +408,25 @@
     <property name="libs.spring-webmvc.maven-pom" value="" />
     <property name="run.jvmargs" value="" />
     <property name="libs.ejb3-persistence.classpath" value="/opt/netbeans-7.1/java/modules/ext/hibernate/ejb3-persistence.jar" />
-    <property name="libs.spring-framework.javadoc" value="" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.spring-framework.javadoc" value="" />
     <property name="libs.DataBindingME-PIM.src" value="/opt/netbeans-7.1/mobility/sources/netbeans_databindingme_pim-src.zip" />
     <property name="libs.PostgreSQLDriver.classpath" value="/opt/netbeans-7.1/ide/modules/ext/postgresql-8.3-603.jdbc3.jar" />
     <property name="libs.jsf12.maven-pom" value="" />
     <property name="libs.junit.src" value="" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="main.class" value="reseptikortisto.Reseptikortisto" />
-    <property name="build.dir" value="build" />
     <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="/opt/netbeans-7.1/java/ant/lib/ant.jar:/opt/netbeans-7.1/enterprise/modules/ext/servlet3.0-jsp2.2-api.jar:/opt/netbeans-7.1/enterprise/modules/ext/glassfish-jspparser-3.0.jar:/opt/netbeans-7.1/enterprise/modules/ext/jsf-2_1/jsf-api.jar:/opt/netbeans-7.1/enterprise/modules/ext/jstl.jar:/opt/netbeans-7.1/java/ant/lib/ant-launcher.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
     <property name="file.encoding" value="UTF-8" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
-    <property name="javadoc.nonavbar" value="false" />
     <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
     <property name="platform.active" value="default_platform" />
   </properties>
-  <testcase classname="ReseptikortistoTest" name="hello" time="0.0020" />
+  <testcase classname="KokkaajaTest" name="hello" time="0.0030" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
