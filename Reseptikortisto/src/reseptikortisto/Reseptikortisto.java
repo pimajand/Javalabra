@@ -12,6 +12,10 @@ import java.io.*;
  * @author hkimajanpi
  */
 public class Reseptikortisto {private static Scanner lukija = new Scanner(System.in);
+
+/**
+ * Reseptien tietoja ylläpidetään Reseptikortistossa, jonka tiedot talletetaan tekstitiedostoksi.
+ */
     private static String tiedostonNimi = "Reseptikortisto.txt";
     private String kokkaaja;
     private static ArrayList<Resepti> reseptit = new ArrayList();
