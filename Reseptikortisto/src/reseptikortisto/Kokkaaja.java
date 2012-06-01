@@ -12,6 +12,9 @@ import java.util.HashMap;
  */
 public class Kokkaaja {
     
+    private String kokkaajanNimi;
+    private String kokkaajanSalasana;
+    
     /** 
      * Kartta käyttäjien tietojen ylläpitämiseksi.
      */

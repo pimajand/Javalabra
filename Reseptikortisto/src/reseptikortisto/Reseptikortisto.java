@@ -24,11 +24,11 @@ public class Reseptikortisto {private static Scanner lukija = new Scanner(System
        
     }
            
-void kokkaajaKirjautui(String nimi) {
+    public void kokkaajaKirjautui(String nimi) {
         this.kokkaaja = nimi;
     }
 
-    String getKokkaaja() {
+    public String getKokkaaja() {
         return this.kokkaaja;
     }
 
